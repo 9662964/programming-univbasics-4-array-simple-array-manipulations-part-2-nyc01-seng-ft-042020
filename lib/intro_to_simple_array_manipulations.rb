@@ -12,7 +12,7 @@ def using_insert(array,ele1)
 end
 
 def using_uniq(array)
-  array.uniq
+  array.uniq!
   return array
 end
 
